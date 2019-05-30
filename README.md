@@ -103,3 +103,17 @@ print(math.atan(0.4))
 1.0471975511965976
 0.3805063771123649
 ```
+# Random Module
+
+```
+import random
+
+print(random.randrange(0,50,5))
+print(random.randint(0,20))
+```
+
+* Output
+```
+10
+1
+```
