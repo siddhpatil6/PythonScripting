@@ -50,4 +50,20 @@ Current working directory : /Users/siddhantpatil/PycharmProjects/learn
 New Current working directory : /Users/siddhantpatil/Desktop/python
 ```
 
+## Example 2
+### To Make Directory
+```
+os.mkdir("/Users/siddhantpatil/Desktop/python/siddhant")
+```
+
+### To Remove Directory
+
+```
+os.rmdir("/Users/siddhantpatil/Desktop/python/siddhant")
+```
+
+### To remove file
+```
+os.remove("/Users/siddhantpatil/Desktop/python/sample.txt")
+```
 
