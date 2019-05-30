@@ -67,3 +67,23 @@ os.rmdir("/Users/siddhantpatil/Desktop/python/siddhant")
 os.remove("/Users/siddhantpatil/Desktop/python/sample.txt")
 ```
 
+### To Join Path
+```
+print(os.path.join("/Users/siddhantpatil/PycharmProjects/learn/","/Users/siddhantpatil/PycharmProjects/learn/OSModule.py"))
+```
+* Output
+```
+/Users/siddhantpatil/PycharmProjects/learn/OSModule.py
+
+```
+
+### To Split Path
+
+```
+print(os.path.split("/Users/siddhantpatil/PycharmProjects/learn/OSModule.py"))
+```
+
+* Output
+```
+('/Users/siddhantpatil/PycharmProjects/learn', 'OSModule.py')
+```
