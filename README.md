@@ -87,3 +87,19 @@ print(os.path.split("/Users/siddhantpatil/PycharmProjects/learn/OSModule.py"))
 ```
 ('/Users/siddhantpatil/PycharmProjects/learn', 'OSModule.py')
 ```
+
+# Math Module
+```
+import math
+print(math.pi)
+print(math.degrees(0.1))
+print(math.acos(0.5))
+print(math.atan(0.4))
+```
+* Output
+```
+3.141592653589793
+5.729577951308233
+1.0471975511965976
+0.3805063771123649
+```
